@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RangeView">
+        <attr name="startValue" format="integer" />
+        <attr name="preValue" format="integer" />
+        <attr name="sectionCount" format="integer" />
+        <attr name="lineColor" format="color" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="thumbColor" format="color" />
+        <attr name="arrColor" format="color" />
+        <attr name="thumbRadius" format="dimension" />
+        <attr name="unlimited" format="boolean" />
+        <attr name="textSize" format="dimension" />
+        <attr name="space" format="dimension" />
+    </declare-styleable>
+</resources>

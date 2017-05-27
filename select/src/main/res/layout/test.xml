@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.cxp.alarm.RangeView
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        app:arrColor="@android:color/white"
+        app:lineColor="@color/colorPrimary"
+        app:lineWidth="2dp"
+        app:preValue="50"
+        app:sectionCount="3"
+        app:space="2dp"
+        app:startValue="100"
+        app:textSize="10dp"
+        app:thumbColor="#f00"
+        app:thumbRadius="10dp"
+        app:unlimited="true" />
+</LinearLayout>

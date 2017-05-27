@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ThirdDemo.iml" filepath="$PROJECT_DIR$/ThirdDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/charts/charts.iml" filepath="$PROJECT_DIR$/charts/charts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datepick/datepick.iml" filepath="$PROJECT_DIR$/datepick/datepick.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greendao/greendao.iml" filepath="$PROJECT_DIR$/greendao/greendao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsoup/jsoup.iml" filepath="$PROJECT_DIR$/jsoup/jsoup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pay/pay.iml" filepath="$PROJECT_DIR$/pay/pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pricedate/pricedate.iml" filepath="$PROJECT_DIR$/pricedate/pricedate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pricedate1/pricedate1.iml" filepath="$PROJECT_DIR$/pricedate1/pricedate1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/realm/realm.iml" filepath="$PROJECT_DIR$/realm/realm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/select/select.iml" filepath="$PROJECT_DIR$/select/select.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taptargetview/taptargetview.iml" filepath="$PROJECT_DIR$/taptargetview/taptargetview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/touchdelete/touchdelete.iml" filepath="$PROJECT_DIR$/touchdelete/touchdelete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zip/zip.iml" filepath="$PROJECT_DIR$/zip/zip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxing/zxing.iml" filepath="$PROJECT_DIR$/zxing/zxing.iml" />
+    </modules>
+  </component>
+</project>

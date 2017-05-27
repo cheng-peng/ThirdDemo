@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+
+    defaultConfig {
+        applicationId "com.cxp.realm"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false  //删除没有使用到的资源文件
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    //Realm 减少Jar大小
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'armeabi', 'armeabi-v7a', 'arm64-v8a', 'mips', 'x86', 'x86_64'
+        }
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("G:/CXPkey.jks")
+            storePassword 'cxp521'
+            keyAlias 'cxp'
+            keyPassword 'cxp521'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:25.1.0'
+
+    compile 'com.google.code.gson:gson:2.6.2'
+    //Goole调试
+    compile 'com.facebook.stetho:stetho:1.4.1'
+    compile 'com.uphyca:stetho_realm:2.0.0'
+
+}

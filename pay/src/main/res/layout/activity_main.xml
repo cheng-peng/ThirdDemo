@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context="com.tctogether.canvas.MainActivity">
+
+    <TextView
+        android:id="@+id/main_tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="支付金额："
+        android:textColor="#333"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/main_et_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入支付金额"
+        android:textSize="14sp" />
+
+    <RadioGroup
+        android:id="@+id/main_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:overScrollMode="never">
+
+        <RadioButton
+            android:id="@+id/main_rb_weixin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="微信支付" />
+
+        <RadioButton
+            android:id="@+id/main_rb_ali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="支付宝支付" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/main_bt_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="立即支付" />
+
+</LinearLayout>

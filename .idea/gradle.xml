@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-3.3" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/charts" />
+            <option value="$PROJECT_DIR$/datepick" />
+            <option value="$PROJECT_DIR$/greendao" />
+            <option value="$PROJECT_DIR$/jsoup" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/pay" />
+            <option value="$PROJECT_DIR$/pricedate" />
+            <option value="$PROJECT_DIR$/pricedate1" />
+            <option value="$PROJECT_DIR$/realm" />
+            <option value="$PROJECT_DIR$/select" />
+            <option value="$PROJECT_DIR$/taptargetview" />
+            <option value="$PROJECT_DIR$/touchdelete" />
+            <option value="$PROJECT_DIR$/zip" />
+            <option value="$PROJECT_DIR$/zxing" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
