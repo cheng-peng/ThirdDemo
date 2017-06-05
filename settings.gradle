@@ -1,1 +1,1 @@
-include ':taptargetview', ':zxing', ':realm', ':greendao', ':jsoup', ':pay', ':charts', ':datepick', ':library', ':select', ':pricedate', ':pricedate1', ':zip', ':touchdelete'
+include ':taptargetview', ':zxing', ':realm', ':greendao', ':jsoup', ':pay', ':charts', ':datepick', ':library', ':select', ':pricedate', ':pricedate1', ':zip', ':touchdelete', ':lottie'
